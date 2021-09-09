@@ -1,32 +1,65 @@
 html {
-    font-family: sans-serif;
+  font-family: sans-serif;
 }
 
 main {
-    width: 75vw;
-    margin: 0 auto;
+  width: 75vw;
+  margin: 0 auto;
 }
 
 header {
-    width: 75vw;
-    text-align: center;
-    margin: 0 auto;
-    padding: 1rem;
+  width: 75vw;
+  text-align: center;
+  margin: 0 auto;
+  padding: 1rem;
 }
 
 nav {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    padding-top: 2rem;
-    padding-bottom: 1rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+nav a {
+  color: crimson;
 }
 
 h2 {
-    margin-top: 3rem;
-    margin-bottom: 1.5rem;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
 }
 
 blockquote {
-    padding: 1rem;
+  padding: 1rem;
+}
+.about blockquote {
+  background-color: #eaeaea;
+}
+.users span {
+  font-weight: bold;
+}
+.users span:nth-child(2) {
+  color: crimson;
+}
+
+.creators {
+  font-family: Lato;
+  font-weight: 300;
+}
+
+.creators a {
+  text-decoration: none;
+  font-family: "PT Serif";
+  font-weight: bold;
+}
+
+.cta h2 {
+  color: crimson;
+  font-family: Lato;
+  font-weight: 700;
+}
+
+li:nth-child(odd) {
+  text-decoration: underline;
 }
